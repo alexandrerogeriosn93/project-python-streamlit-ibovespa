@@ -16,3 +16,6 @@ ticker_data_frame = ticker_data.history(period="1d", start="2012-5-19", end="202
 
 st.header("Gráfico de fechamento")
 st.line_chart(ticker_data_frame.Close)
+
+st.header("Gráfico de Volume")
+st.line_chart(ticker_data_frame.Volume)
