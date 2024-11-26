@@ -19,3 +19,6 @@ st.line_chart(ticker_data_frame.Close)
 
 st.header("Gráfico de Volume")
 st.line_chart(ticker_data_frame.Volume)
+
+st.header("Gráfico de Dividendos")
+st.area_chart(ticker_data_frame.Dividends)
